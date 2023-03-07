@@ -2,9 +2,11 @@ import "./App.css";
 import Student from "./Student";
 
 function App() {
-  <div>
-    return <Student />;
-  </div>;
+  return (
+    <div>
+      <Student />
+    </div>
+  );
 }
 
 export default App;

@@ -3,7 +3,7 @@ import React from "react";
 const student = [
   { id: 1, name: "choi", email: "choi@naver.com" },
   { id: 2, name: "kim", email: "kim@google.com" },
-  { id: 322, name: "park", email: "park@gachon.ac.kr" },
+  { id: 3, name: "park", email: "park@gachon.ac.kr" },
 ];
 
 const StudentItem = ({ student }) => (
@@ -25,4 +25,5 @@ const Student = () => {
     </div>
   );
 };
+
 export default Student;
