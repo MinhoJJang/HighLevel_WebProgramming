@@ -29,6 +29,7 @@ const UsememoNo = () => {
     </div>
   );
 };
+
 const expensiveCalculation = (num) => {
   console.log("Calculating...");
   for (let i = 0; i < 1000000000; i++) {
