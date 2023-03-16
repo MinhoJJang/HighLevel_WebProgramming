@@ -10,12 +10,12 @@ const car = [
 
 const Component = ({ car }) => (
   <div>
-    <b
-      style={{
-        justifyContent: "space-around",
-      }}
-    >
-      [{car.id}] {car.name} {car.price} {car.explanation}
+    <b style={{ display: "flex", flexWrap: "nowrap" }}>
+      <div style={{ width: "15%" }}>
+        [{car.id}]{car.name}
+      </div>
+      <div style={{ width: "10%" }}>{car.price} </div>
+      <div style={{ width: "25%" }}>{car.explanation}</div>
     </b>
   </div>
 );
@@ -23,7 +23,7 @@ const Component = ({ car }) => (
 const ComponentName = () => {
   return (
     <div>
-      <h2> Car List </h2>
+      <h1> Car List </h1>
       {car.map((std) => (
         <Component car={std} />
       ))}

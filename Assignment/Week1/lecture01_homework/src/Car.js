@@ -10,13 +10,10 @@ const car = [
 
 const Component = ({ car }) => (
   <div>
-    <b
-      style={{
-        justifyContent: "space-around",
-        marginLeft: "30px",
-      }}
-    >
-      {car.name} {car.price} {car.explanation}
+    <b style={{ display: "flex", flexWrap: "nowrap" }}>
+      <div style={{ width: "15%", marginLeft: "5%" }}>{car.name}</div>
+      <div style={{ width: "10%" }}>{car.price} </div>
+      <div style={{ width: "25%" }}>{car.explanation}</div>
     </b>
   </div>
 );
