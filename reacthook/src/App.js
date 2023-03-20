@@ -5,6 +5,7 @@ import Timer from "./Timer";
 import UseEffectTest from "./UseEffectTest";
 import Counter from "./Counter";
 import UsememoNo from "./UsememoNo";
+import Calculator from "./Calculator";
 // function App() {
 //   return (
 //     <div>
@@ -32,9 +33,7 @@ import UsememoNo from "./UsememoNo";
 function App() {
   return (
     <div>
-      {/* <UseEffectTest /> */}
-      {/* <Counter /> */}
-      <UsememoNo />
+      <Calculator />
     </div>
   );
 }
