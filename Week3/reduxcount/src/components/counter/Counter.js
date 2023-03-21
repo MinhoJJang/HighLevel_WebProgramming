@@ -15,11 +15,9 @@ const Counter = () => {
     setIncrementAmount(0);
     dispatch(reset());
   };
-  const addIt = (e) => {
-    dispatch(setIncrementAmount(e.target.value));
-  };
+
   return (
-    <section>
+    <section align="center">
       <p>{count}</p>
       <div>
         <button onClick={() => dispatch(increament())}>+</button>
