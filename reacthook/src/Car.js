@@ -6,6 +6,7 @@ function Car() {
     year: "1964",
     color: "red",
   });
+
   const updateColor = () => {
     setCar((previousState) => {
       return { ...previousState, color: "blue", model: "G2" };
